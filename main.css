@@ -1,0 +1,298 @@
+/* Class Selectors */
+.AbsoluteLinks {
+    margin: 50px auto;
+    width: 60%;
+    line-height: 20px;
+}
+.Bottom {
+    background-color: darksalmon;
+    height: 100px;
+    padding: 20px;
+}
+.CssList {
+    display: block;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+.CssLogo {
+    border: solid brown 4px;
+    border-radius: 50%;
+    height: 160px;
+}
+.DefinitionLists {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.Email:hover {
+    font-size: 2.8rem;
+    background-color: brown;
+    border-radius: 50%;
+}
+.ElvisKemoi {
+    color: brown;
+    font-size: 2rem;
+}
+
+.Top {
+    position: relative;
+    padding: 0;
+    padding-top: 0;
+    background-color: darksalmon;
+    height: fit-content;
+    text-align: center;
+    display: relative;
+}
+.Middle {
+    background-color: azure;
+    height: fit-content;
+    padding: 50px;
+}
+.MiddleHtml {
+    width: 80%;
+    height: fit-content;
+    margin: 70px auto;
+    text-align: center;
+}
+.MiddleCss {
+    width: 80%;
+    height: fit-content;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.Phone:hover {
+    font-size: 2.8rem;
+    background-color: brown;
+    border-radius: 50%;
+}
+.tables {
+    display: block;
+    font-size: 150%;
+    line-height: 30px;
+}
+.RelativeLinks {
+    margin: 50px auto;
+    width: 60%;
+    line-height: 20px;
+}
+
+.Heading {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    color: brown;
+}
+.LinkTypes {
+    font-size: 3rem;
+    font-style: italic;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+.html5Logo {
+    border-radius: 50%;
+    border: solid brown 4px;
+    height: 160px;
+}
+
+.HtmlList {
+    display: block;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+.HeadingImage {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.navTop {
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    font-size: 3rem;
+}
+.navTop:hover {
+    font-size: 3.5rem;
+    background-color: salmon;
+    border-radius: 50%;
+    padding: 3px;
+}
+.navBack {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    font-size: 3rem;
+}
+.navBack:hover {
+    background-color: salmon;
+    border-radius: 50%;
+    padding: 3px;
+}
+.navBack:hover {
+    font-size: 3.5rem;
+}
+.FormTypes {
+    width: 30%;
+    margin: 40px auto;
+    text-align: left;
+    padding: 0 auto 20px auto;
+}
+.firstHalf {
+    display: inline;
+    float: left;
+    margin: 0 50px 0 0;
+}
+.secondHalf {
+    display: inline;
+    float: right;
+    margin: 0;
+}
+.FormExampleIn {
+    width: 50%;
+    margin: 50px auto;
+}
+.TableComponents {
+    width: 30%;
+    margin: 50px auto;
+}
+.TableExample {
+    width: 70%;
+    margin: 50px auto;
+}
+.ListTypes {
+    font-size: 3rem;
+    font-style: italic;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+.OrderedLists {
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.UnorderedLists {
+    width: 50%;
+    margin: 0 auto 50px;
+}
+
+/* Tag Selectors */
+a {
+    text-decoration: none;
+    display: block;
+    color: blue;
+}
+a:hover {
+    color: red;
+    font-size: 2.5rem;
+}
+body {
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+}
+h1 {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+}
+h3 {
+    font-style: italic;
+    text-align: center;
+    color: brown;
+    font-size: 1.5rem;
+}
+hr {
+    background-color: brown;
+    height: 2px;
+}
+table {
+    line-height: 1.5rem;
+    column-width: fit-content;
+    text-wrap: nowrap;
+    column-gap: 30px;
+    margin: 0 auto;
+    border: solid salmon 2px;
+    padding: 10px;
+    border-radius: 10%;
+}
+thead {
+    background-color: salmon;
+    font-size: 1.2rem;
+}
+td {
+    margin: 30px;
+    background-color: blanchedalmond;
+}
+/* ID Selectors */
+#Email {
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    font-size: 2.3rem;
+}
+#Email:hover {
+    background-color: salmon;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#Phone {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 2.3rem;
+}
+#Phone:hover {
+    background-color: salmon;
+    border-radius: 50%;
+    padding: 10px;
+}
+.firstDivision {
+    height: fit-content;
+    width: 60%;
+    border: solid salmon 3px;
+    border-radius: 10%;
+    margin: 40px auto;
+}
+.secondDivision {
+    height: fit-content;
+    width: 60%;
+    border: solid salmon 3px;
+    border-radius: 10%;
+    margin: 40px auto;
+}
+.thirdDivision {
+    height: fit-content;
+    width: 60%;
+    border: solid salmon 3px;
+    border-radius: 10%;
+    margin: 40px auto;
+}
+.BoxModel {
+    font-size: 3rem;
+    font-style: italic;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+.DivisionExamples {
+    font-size: 3rem;
+    font-style: italic;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+.BoxModelExample {
+    width: 60%;
+    border: solid salmon 3px;
+    margin: 40px auto;
+    border-radius: 10%;
+}
